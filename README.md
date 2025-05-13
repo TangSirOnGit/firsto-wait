@@ -1,6 +1,6 @@
 # Firsto.co Landing Page
 
-This is a Next.js landing page for Firsto.co, a product launch platform. The landing page includes brand messaging, waitlist signup functionality, and presale information.
+This is a Next.js landing page for [Firsto.co](https://www.firsto.co), a product launch platform. The landing page includes brand messaging, waitlist signup functionality, and presale information.
 
 ## Features
 
