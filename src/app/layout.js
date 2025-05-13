@@ -11,6 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script defer src="https://info.ewaltech.com/script.js" data-website-id="f70a3c20-4028-45de-8b3c-d8d994966050"></script>
+      </head>
       <body className={`${inter.variable} font-sans`}>
         {children}
       </body>
