@@ -11,8 +11,8 @@ export default function Footer() {
           <div className="md:col-span-2">
             <Link href="/" className="text-2xl font-bold text-white">Firsto.co</Link>
             <p className="mt-4 text-gray-400 max-w-md">
-              The ultimate platform for product launches. Build your waitlist, secure presales, 
-              and launch your product with confidence.
+              Firsto is the platform for first movers. Where creators can first showcase their products to the world, 
+              and early users can discover the next world-changing innovation first.
             </p>
             <div className="mt-6 flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">

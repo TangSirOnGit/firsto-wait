@@ -2,23 +2,23 @@ export default function HowItWorks() {
   const steps = [
     {
       number: '01',
-      title: 'Create Your Landing Page',
-      description: 'Set up your product landing page with customizable templates and branding options.',
+      title: 'Create Your First Impression',
+      description: 'Design a captivating first impression with our customizable launch templates built for impact.',
     },
     {
       number: '02',
-      title: 'Collect Waitlist Signups',
-      description: 'Build your audience with our optimized waitlist forms and referral system.',
+      title: 'Gather First Followers',
+      description: 'Attract your first community of early adopters who will champion your vision from day one.',
     },
     {
       number: '03',
-      title: 'Engage Your Audience',
-      description: 'Keep your waitlist engaged with updates, exclusive content, and early access opportunities.',
+      title: 'Collect First Feedback',
+      description: 'Gain invaluable insights from your first users to refine your product before full launch.',
     },
     {
       number: '04',
-      title: 'Launch With Confidence',
-      description: 'Convert your waitlist to paying customers with our launch tools and analytics.',
+      title: 'Secure First Revenue',
+      description: 'Turn early enthusiasm into your first revenue stream with our presale and early-access tools.',
     },
   ];
 
@@ -26,9 +26,9 @@ export default function HowItWorks() {
     <section id="how-it-works" className="section bg-gray-50">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="heading-lg text-gray-900">How It Works</h2>
+          <h2 className="heading-lg text-gray-900">Your First-to-Market Journey</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
-            Our simple four-step process helps you build anticipation and launch your product successfully.
+            From creation to launch, Firsto guides you through the complete cycle—where being first creates the greatest impact.
           </p>
         </div>
 

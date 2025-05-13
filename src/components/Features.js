@@ -2,23 +2,23 @@ import { FiUsers, FiTrendingUp, FiCreditCard, FiBarChart2 } from 'react-icons/fi
 
 const features = [
   {
-    name: 'Build Your Audience',
-    description: 'Collect emails and build a community of early adopters before your product launch.',
+    name: 'First To Discover',
+    description: 'Create a platform where early adopters can be the first to discover your innovative product.',
     icon: FiUsers,
   },
   {
-    name: 'Validate Your Idea',
-    description: 'Get real feedback from potential customers to refine your product before launch.',
+    name: 'First To Experience',
+    description: 'Provide unique first-access experiences that create lasting impact and memorable brand moments.',
     icon: FiTrendingUp,
   },
   {
-    name: 'Secure Presales',
-    description: 'Start generating revenue with presales and early-bird offers.',
+    name: 'First To Share',
+    description: 'Enable your earliest supporters to share their exclusive first experiences with their networks.',
     icon: FiCreditCard,
   },
   {
-    name: 'Track Performance',
-    description: 'Analyze your waitlist growth and conversion metrics with our analytics dashboard.',
+    name: 'First To Market',
+    description: 'Accelerate your journey from concept to market with tools designed for first-movers.',
     icon: FiBarChart2,
   },
 ];
@@ -28,10 +28,10 @@ export default function Features() {
     <section id="features" className="section bg-white">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="heading-lg text-gray-900">Everything You Need for a Successful Launch</h2>
+          <h2 className="heading-lg text-gray-900">The Complete First-Launch Experience</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
-            Our platform provides all the tools you need to build anticipation, validate your product, 
-            and start generating revenue before your official launch.
+            Firsto provides the complete journey from creation to launch—where 'o' represents opportunity, 
+            originality, and openness in bringing your product to the world first.
           </p>
         </div>
 

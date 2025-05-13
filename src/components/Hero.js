@@ -8,12 +8,13 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="heading-xl">
-              <span className="block text-gray-900">Launch Your Product</span>
-              <span className="block text-primary-600">With Confidence</span>
+              <span className="block text-gray-900">Be Firsto,</span>
+              <span className="block text-primary-600">Be First</span>
             </h1>
             <p className="text-xl text-gray-600">
-              Firsto.co is the ultimate platform for product launches. Get early feedback, 
-              build a waitlist, and secure presales before your official launch.
+              Firsto is the platform for first movers. We believe those who discover, try, and share first 
+              gain the most unique experiences and greatest influence. Launch your product first, 
+              get your first users, and make your first impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="#waitlist" className="btn-primary text-center">
@@ -25,14 +26,14 @@ export default function Hero() {
             </div>
             <div className="pt-4">
               <p className="text-gray-500 text-sm">
-                🚀 Coming soon - Be the first to know when we launch!
+                🚀 First to Market, First to Mind - Join the Firsto revolution!
               </p>
             </div>
           </div>
           <div className="relative h-[400px] lg:h-[500px]">
             {/* Placeholder for hero image - replace with your actual image */}
             <div className="absolute inset-0 bg-gradient-to-tr from-primary-200 to-primary-400 rounded-lg flex items-center justify-center">
-              <span className="text-white text-2xl font-bold">Product Launch Platform</span>
+              <span className="text-white text-2xl font-bold">Where Great Products Launch First</span>
             </div>
           </div>
         </div>
