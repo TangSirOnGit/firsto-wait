@@ -3,51 +3,45 @@ import Link from 'next/link';
 
 const plans = [
   {
-    name: 'Early Bird',
-    price: '$99',
-    description: 'Perfect for startups and small businesses',
+    name: 'Standard Launch',
+    price: 'Free',
+    description: 'Basic launch features',
     features: [
-      'Full access to launch platform',
-      'Custom landing page',
-      'Waitlist management',
-      'Basic analytics',
-      'Email notifications',
-      '30-day money-back guarantee'
+      'Live on homepage for 7 days',
+      'Badge for top 3 ranking products',
+      'High authority backlink for top 3 ranking products',
+      'Standard launch queue'
     ],
-    cta: 'Pre-order Now',
+    cta: 'Join Waitlist',
     highlighted: false,
   },
   {
-    name: 'Pro Launch',
-    price: '$199',
-    description: 'For businesses serious about their product launch',
+    name: 'Premium Launch',
+    price: '$29',
+    description: '/launch',
     features: [
-      'Everything in Early Bird',
-      'Advanced analytics dashboard',
-      'A/B testing tools',
-      'Referral system',
-      'Priority support',
-      'Custom domain',
-      'Lifetime updates'
+      'Live on homepage for 7 days',
+      'Badge for top 3 ranking products',
+      'Guaranteed high authority backlink',
+      'Skip the queue'
+    ],
+    cta: 'Join Waitlist',
+    highlighted: false,
+  },
+  {
+    name: 'Early Bird Special',
+    price: '$19',
+    description: 'Pre-sale limited offer',
+    features: [
+      '3 Premium Launches ($87 value)',
+      'Live on homepage for 7 days each launch',
+      'Badge for top 3 ranking products',
+      'Guaranteed high authority backlink for all launches',
+      'Skip the queue for all launches',
+      'Priority support'
     ],
     cta: 'Pre-order Now',
     highlighted: true,
-  },
-  {
-    name: 'Enterprise',
-    price: 'Contact Us',
-    description: 'Custom solutions for larger organizations',
-    features: [
-      'Everything in Pro Launch',
-      'Dedicated account manager',
-      'Custom integrations',
-      'Advanced security features',
-      'SLA guarantees',
-      'Onboarding assistance',
-      'White-label options'
-    ],
-    cta: 'Contact Sales',
-    highlighted: false,
   }
 ];
 
@@ -56,9 +50,9 @@ export default function Pricing() {
     <section id="pricing" className="section bg-white">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="heading-lg text-gray-900">Pre-launch Pricing</h2>
+          <h2 className="heading-lg text-gray-900">Simple, transparent pricing</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
-            Special pre-launch pricing available for early adopters. Lock in these rates before our official launch.
+            Choose the perfect plan for your product launch. No hidden fees.
           </p>
         </div>
 
@@ -105,7 +99,7 @@ export default function Pricing() {
         
         <div className="mt-12 text-center">
           <p className="text-gray-500">
-            All plans include a 30-day money-back guarantee. Prices will increase after official launch.
+            Early Bird Special is a limited-time pre-sale offer. Get 3 Premium Launches for less than the price of 1!
           </p>
         </div>
       </div>
