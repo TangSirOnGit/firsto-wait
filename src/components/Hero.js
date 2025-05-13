@@ -8,17 +8,16 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="heading-xl">
-              <span className="block text-gray-900">Be Firsto,</span>
-              <span className="block text-primary-600">Be First</span>
+              <span className="block text-gray-900">Launch Your Product</span>
+              <span className="block text-primary-600">Get Discovered First</span>
             </h1>
             <p className="text-xl text-gray-600">
-              Firsto is the platform for first movers. We believe those who discover, try, and share first 
-              gain the most unique experiences and greatest influence. Launch your product first, 
-              get your first users, and make your first impact.
+              Firsto is where great products get launched and discovered. Showcase your creation to an eager 
+              audience of early adopters and receive the attention, feedback, and momentum your innovation deserves.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="#waitlist" className="btn-primary text-center">
-                Join Waitlist
+              <Link href="#launch" className="btn-primary text-center">
+                Launch Your Product
               </Link>
               <Link href="#how-it-works" className="btn-secondary text-center">
                 Learn More
@@ -26,7 +25,7 @@ export default function Hero() {
             </div>
             <div className="pt-4">
               <p className="text-gray-500 text-sm">
-                🚀 First to Market, First to Mind - Join the Firsto revolution!
+                🚀 Where Great Products Launch First - Get the spotlight your innovation deserves!
               </p>
             </div>
           </div>

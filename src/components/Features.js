@@ -2,23 +2,23 @@ import { FiUsers, FiTrendingUp, FiCreditCard, FiBarChart2 } from 'react-icons/fi
 
 const features = [
   {
-    name: 'First To Discover',
-    description: 'Create a platform where early adopters can be the first to discover your innovative product.',
+    name: 'Maximum Visibility',
+    description: 'Showcase your product on a platform designed to give new launches the spotlight they deserve.',
     icon: FiUsers,
   },
   {
-    name: 'First To Experience',
-    description: 'Provide unique first-access experiences that create lasting impact and memorable brand moments.',
+    name: 'Targeted Audience',
+    description: 'Connect with an engaged community of early adopters eager to discover and try new products first.',
     icon: FiTrendingUp,
   },
   {
-    name: 'First To Share',
-    description: 'Enable your earliest supporters to share their exclusive first experiences with their networks.',
+    name: 'Valuable Feedback',
+    description: 'Receive immediate feedback from real users to help refine and improve your product.',
     icon: FiCreditCard,
   },
   {
-    name: 'First To Market',
-    description: 'Accelerate your journey from concept to market with tools designed for first-movers.',
+    name: 'Launch Analytics',
+    description: 'Track your launch performance with detailed metrics on views, engagement, and user interest.',
     icon: FiBarChart2,
   },
 ];
@@ -28,10 +28,10 @@ export default function Features() {
     <section id="features" className="section bg-white">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="heading-lg text-gray-900">The Complete First-Launch Experience</h2>
+          <h2 className="heading-lg text-gray-900">The Ultimate Product Launch Platform</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
-            Firsto provides the complete journey from creation to launch—where 'o' represents opportunity, 
-            originality, and openness in bringing your product to the world first.
+            Firsto gives your product the attention it deserves. Our platform is designed to help creators 
+            showcase their innovations and connect with their first enthusiastic users.
           </p>
         </div>
 

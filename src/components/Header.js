@@ -25,8 +25,8 @@ export default function Header() {
             <Link href="#pricing" className="text-gray-700 hover:text-primary-600 transition-colors">
               Pricing
             </Link>
-            <Link href="#waitlist" className="btn-primary">
-              Join Waitlist
+            <Link href="#launch" className="btn-primary">
+              Launch Product
             </Link>
           </nav>
 
@@ -64,11 +64,11 @@ export default function Header() {
               Pricing
             </Link>
             <Link 
-              href="#waitlist" 
+              href="#launch" 
               className="inline-block btn-primary"
               onClick={() => setIsMenuOpen(false)}
             >
-              Join Waitlist
+              Launch Product
             </Link>
           </nav>
         )}

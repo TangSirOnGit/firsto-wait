@@ -2,23 +2,23 @@ export default function HowItWorks() {
   const steps = [
     {
       number: '01',
-      title: 'Create Your First Impression',
-      description: 'Design a captivating first impression with our customizable launch templates built for impact.',
+      title: 'Create Your Product Page',
+      description: 'Build an eye-catching product page that showcases your innovation with our easy-to-use tools.',
     },
     {
       number: '02',
-      title: 'Gather First Followers',
-      description: 'Attract your first community of early adopters who will champion your vision from day one.',
+      title: 'Submit For Launch',
+      description: 'Schedule your product launch and get featured on our platform to maximize visibility.',
     },
     {
       number: '03',
-      title: 'Collect First Feedback',
-      description: 'Gain invaluable insights from your first users to refine your product before full launch.',
+      title: 'Engage With Users',
+      description: 'Connect with interested users, answer questions, and build relationships with your first customers.',
     },
     {
       number: '04',
-      title: 'Secure First Revenue',
-      description: 'Turn early enthusiasm into your first revenue stream with our presale and early-access tools.',
+      title: 'Analyze & Iterate',
+      description: 'Use launch data and user feedback to improve your product and plan your growth strategy.',
     },
   ];
 
@@ -26,9 +26,9 @@ export default function HowItWorks() {
     <section id="how-it-works" className="section bg-gray-50">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="heading-lg text-gray-900">Your First-to-Market Journey</h2>
+          <h2 className="heading-lg text-gray-900">How to Launch on Firsto</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
-            From creation to launch, Firsto guides you through the complete cycle—where being first creates the greatest impact.
+            Our simple four-step process helps you showcase your product, connect with early adopters, and gain momentum from day one.
           </p>
         </div>
 
