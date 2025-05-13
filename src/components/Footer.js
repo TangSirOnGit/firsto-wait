@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FiTwitter, FiInstagram, FiLinkedin } from 'react-icons/fi';
+import { FiTwitter, FiCloud } from 'react-icons/fi';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -19,22 +19,20 @@ export default function Footer() {
             </p>
             <div className="mt-6 flex space-x-4">
               <a
-                href="#"
+                href="https://x.com/innovate_leo"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <FiTwitter size={20} />
               </a>
               <a
-                href="#"
+                href="https://bsky.app/profile/ewalf.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                <FiInstagram size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <FiLinkedin size={20} />
+                <FiCloud size={20} />
               </a>
             </div>
           </div>
