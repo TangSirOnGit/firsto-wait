@@ -57,13 +57,13 @@ export default function Header() {
             >
               Features
             </Link>
-            <Link
+            {/* <Link
               href="#how-it-works"
               className="block text-gray-700 hover:text-primary-600 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               How It Works
-            </Link>
+            </Link> */}
             <Link
               href="#pricing"
               className="block text-gray-700 hover:text-primary-600 transition-colors"
