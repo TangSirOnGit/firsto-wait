@@ -2,23 +2,23 @@ export default function HowItWorks() {
   const steps = [
     {
       number: '01',
-      title: 'Create Your Product Page',
-      description: 'Build an eye-catching product page that showcases your innovation with our easy-to-use tools.',
+      title: 'Prepare Your First Version',
+      description: 'Package your MVP or beta version with a compelling story about why you built it and where it\'s heading.',
     },
     {
       number: '02',
-      title: 'Submit For Launch',
-      description: 'Schedule your product launch and get featured on our platform to maximize visibility.',
+      title: 'Ship With Confidence',
+      description: 'Use our launch checklist and countdown tools to build anticipation and ship your product with pride.',
     },
     {
       number: '03',
-      title: 'Engage With Users',
-      description: 'Connect with interested users, answer questions, and build relationships with your first customers.',
+      title: 'Celebrate The First Step',
+      description: 'Mark this milestone with a community that understands the significance of turning creation into reality.',
     },
     {
       number: '04',
-      title: 'Analyze & Iterate',
-      description: 'Use launch data and user feedback to improve your product and plan your growth strategy.',
+      title: 'Build Momentum',
+      description: 'Convert the emotional energy of your first launch into relationships with early adopters and valuable feedback.',
     },
   ];
 
@@ -26,9 +26,9 @@ export default function HowItWorks() {
     <section id="how-it-works" className="section bg-gray-50">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="heading-lg text-gray-900">How to Launch on Firsto</h2>
+          <h2 className="heading-lg text-gray-900">Your Product's First Steps</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
-            Our simple four-step process helps you showcase your product, connect with early adopters, and gain momentum from day one.
+            From creation to launch, Firsto guides you through the crucial first steps of your product journey with tools designed for the ship-first mindset.
           </p>
         </div>
 

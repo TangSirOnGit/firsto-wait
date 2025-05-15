@@ -7,21 +7,21 @@ import {
 
 const features = [
   {
-    name: 'Maximum Visibility',
+    name: 'First Move Advantage',
     description:
-      'Showcase your product on a platform designed to give new launches the spotlight they deserve.',
+      'Turn your creation into reality with a dedicated platform that celebrates the crucial first step of your product journey.',
     icon: FiUsers,
   },
   {
-    name: 'Targeted Audience',
+    name: 'Ship-First Community',
     description:
-      'Connect with an engaged community of early adopters eager to discover and try new products first.',
+      'Join a community of makers, developers, and indie hackers who believe in shipping early and iterating based on real feedback.',
     icon: FiTrendingUp,
   },
   {
-    name: 'Valuable Feedback',
+    name: 'Launch Momentum',
     description:
-      'Receive immediate feedback from real users to help refine and improve your product.',
+      'Transform the emotional high of shipping into tangible momentum with early adopters who appreciate your courage to launch.',
     icon: FiCreditCard,
   },
   // {
@@ -37,12 +37,12 @@ export default function Features() {
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="heading-lg text-gray-900">
-            The Ultimate Product Launch Platform
+            Where Your Product Journey Begins
           </h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
-            Firsto gives your product the attention it deserves. Our platform is
-            designed to help creators showcase their innovations and connect
-            with their first enthusiastic users.
+            Firsto is the starting point that turns ideas into launched products. 
+            We embrace the "ship-first" philosophy that makers and developers live by, 
+            providing the perfect launchpad for your creation's first steps into the world.
           </p>
         </div>
 

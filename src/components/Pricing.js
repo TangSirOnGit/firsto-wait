@@ -7,10 +7,9 @@ const plans = [
     price: 'Free',
     description: 'Basic launch features',
     features: [
-      'Live on homepage for 7 days',
       'Badge for top 3 ranking products',
       'High authority backlink for top 3 ranking products',
-      'Standard launch queue'
+      'Standard launch queue',
     ],
     cta: 'Join Waitlist',
     highlighted: false,
@@ -23,7 +22,7 @@ const plans = [
       'Live on homepage for 7 days',
       'Badge for top 3 ranking products',
       'Guaranteed high authority backlink',
-      'Skip the queue'
+      'Skip the queue',
     ],
     cta: 'Join Waitlist',
     highlighted: false,
@@ -34,15 +33,13 @@ const plans = [
     description: 'Pre-sale limited offer',
     features: [
       '3 Premium Launches ($87 value)',
-      'Live on homepage for 7 days each launch',
-      'Badge for top 3 ranking products',
       'Guaranteed high authority backlink for all launches',
       'Skip the queue for all launches',
-      'Priority support'
+      'Priority support',
     ],
     cta: 'Pre-order Now',
     highlighted: true,
-  }
+  },
 ];
 
 export default function Pricing() {
@@ -50,7 +47,9 @@ export default function Pricing() {
     <section id="pricing" className="section bg-white">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="heading-lg text-gray-900">Simple, transparent pricing</h2>
+          <h2 className="heading-lg text-gray-900">
+            Simple, transparent pricing
+          </h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
             Choose the perfect plan for your product launch. No hidden fees.
           </p>
@@ -58,16 +57,22 @@ export default function Pricing() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {plans.map((plan) => (
-            <div 
-              key={plan.name} 
+            <div
+              key={plan.name}
               className={`rounded-lg overflow-hidden border ${
-                plan.highlighted 
-                  ? 'border-primary-500 shadow-lg ring-2 ring-primary-500 ring-opacity-50' 
+                plan.highlighted
+                  ? 'border-primary-500 shadow-lg ring-2 ring-primary-500 ring-opacity-50'
                   : 'border-gray-200 shadow-sm'
               }`}
             >
-              <div className={`p-6 ${plan.highlighted ? 'bg-primary-50' : 'bg-white'}`}>
-                <h3 className="text-2xl font-bold text-gray-900">{plan.name}</h3>
+              <div
+                className={`p-6 ${
+                  plan.highlighted ? 'bg-primary-50' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-2xl font-bold text-gray-900">
+                  {plan.name}
+                </h3>
                 <p className="mt-4 text-3xl font-bold">{plan.price}</p>
                 <p className="mt-1 text-sm text-gray-500">{plan.description}</p>
               </div>
@@ -96,10 +101,11 @@ export default function Pricing() {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-12 text-center">
           <p className="text-gray-500">
-            Early Bird Special is a limited-time pre-sale offer. Get 3 Premium Launches for less than the price of 1!
+            Early Bird Special is a limited-time pre-sale offer. Get 3 Premium
+            Launches for less than the price of 1!
           </p>
         </div>
       </div>

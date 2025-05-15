@@ -27,7 +27,7 @@ export default function Footer() {
                 <FiTwitter size={20} />
               </a>
               <a
-                href="https://bsky.app/profile/ewalf.com"
+                href="https://bsky.app/profile/firsto.co"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
