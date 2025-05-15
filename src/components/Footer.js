@@ -13,9 +13,8 @@ export default function Footer() {
               Firsto.co
             </Link>
             <p className="mt-4 text-gray-400 max-w-md">
-              The ultimate product launch platform. Showcase your innovation,
-              connect with early adopters, and get the attention your product
-              deserves.
+              Start your product journey with Firsto. We are the starting point for your product journey, helping creators take the crucial first step,
+              and providing a permanent showcase platform that connects you with your first users and supporters.
             </p>
             <div className="mt-6 flex space-x-4">
               <a
@@ -42,17 +41,28 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
+                  href="/about"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="#features"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Features
                 </Link>
               </li>
-              {/* <li>
-                <Link href="#how-it-works" className="text-gray-400 hover:text-white transition-colors">
+              <li>
+                <Link
+                  href="#how-it-works"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   How It Works
                 </Link>
-              </li> */}
+              </li>
               <li>
                 <Link
                   href="#pricing"
@@ -63,10 +73,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#launch"
+                  href="#waitlist"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Launch Product
+                  Join Waitlist
                 </Link>
               </li>
             </ul>
@@ -77,7 +87,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="#"
+                  href="/privacy-policy"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Privacy Policy
@@ -85,7 +95,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/terms-of-service"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Terms of Service
@@ -93,7 +103,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/cookie-policy"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Cookie Policy
